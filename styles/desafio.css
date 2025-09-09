@@ -70,3 +70,8 @@ main > div{
     border-radius: var(--borda-arredondamento);
     background-color: var(--cor-branco);
 }
+
+form > h1{
+    text-transform: uppercase;
+    color: var(--cor-lilas-claro);
+}
