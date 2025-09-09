@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+:root{
+    --cor-lilas-escuro: #673AB7;
+    --cor-lilas-claro: #9575cd;
+     --cor-branco: #fff;
+
+     --borda: 1px solid var(--cor-preto);
+     --border-radius: var(--borda-arredondamento);
+
+}
+*{
+    font-family: "Light&display", system-ui;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /*O valor total do tamanho do elemento contra tanto com espaços interno/externo e as bordas*/
+    outline-color: var(--cor-roxo-medio);
+}
+
+main{
+    
+}
+input{
+    width: 417px;
+    height: 43px;
+    border: var(--cor-lilas-claro);
+    margin: 3px;
+}
+
+.estilo-formulario {
+    border: var(--borda);
+    background-color: var(--cor-branco);
+}
+
+
+.formulario-botao-azul{
+background-color: var(--cor-lilas-claro);
+border-radius: var(--borda-arredondamento);
+border: none;/*Removendo borda*/
+height: 43px;
+color: var(--cor-branco);
+font-size: var(--tamanho-fonte-sm);
+font-weight: 500;
+}
